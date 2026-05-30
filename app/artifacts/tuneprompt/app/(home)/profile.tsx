@@ -20,6 +20,9 @@ import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { useColors } from "@/hooks/useColors";
 import { useHistory } from "@/context/HistoryContext";
 
+// Dynamic config import
+const appConfig = require("../../app.json");
+
 function StatCard({ value, label, icon, color }: { value: number; label: string; icon: any; color: string }) {
   const colors = useColors();
   return (
@@ -186,10 +189,7 @@ export default function ProfileScreen() {
   const seoCount = history.filter((h) => h.category === "seo").length;
 
   const email = user?.emailAddresses?.[0]?.emailAddress ?? "";
-
-  // Extract name: remove numbers, add space before capitals
   const rawName = email.split('@')[0].replace(/[0-9]/g, "").replace(/([A-Z])/g, " $1").trim();
-
   const displayName = user?.firstName
     ? `${user.firstName}${user.lastName ? " " + user.lastName : ""}`.trim()
     : rawName || "User";
@@ -283,7 +283,7 @@ export default function ProfileScreen() {
                 </View>
                 <Text style={[s.menuLabel, { color: colors.foreground }]}>App Version</Text>
               </View>
-              <Text style={[s.menuValue, { color: colors.mutedForeground }]}>2.0.0</Text>
+              <Text style={[s.menuValue, { color: colors.mutedForeground }]}>{appConfig.expo.version}</Text>
             </View>
             <View style={[s.menuItem, { borderBottomWidth: 0 }]}>
               <View style={s.menuLeft}>
