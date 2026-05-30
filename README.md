@@ -20,15 +20,13 @@ Below are the key interfaces of TunePrompt:
 | :---: | :---: | :---: |
 | ![Splash](screenshots/splash-screen.jpeg) | ![Signin](screenshots/signin.jpeg) | ![Signup](screenshots/signup.jpeg) |
 
-### Core Functionality
-| Dashboard | Category Selection | Prompt Generation |
+### Core Functionality, Management & Settings
+| Dashboard | Video Category Selection | SEO Category Selection | 
 | :---: | :---: | :---: |
-| ![Dashboard](screenshots/dashboard.jpeg) | ![Video Categories](screenshots/video-categories.jpeg) ![SEO Categories](screenshots/seo-categories.jpeg) | ![Generate](screenshots/generate.jpeg) |
-
-### Management & Settings
-| History | Profile |
+| ![Dashboard](screenshots/dashboard.jpeg) | ![Video Categories](screenshots/video-categories.jpeg) | ![SEO Categories](screenshots/seo-categories.jpeg) |
+| History | Profile | Prompt Generation |
 | :---: | :---: | :---: |
-| ![History](screenshots/history.jpeg) | ![Profile](screenshots/profile.jpeg) |
+| ![Generate](screenshots/generate.jpeg) | ![History](screenshots/history.jpeg) | ![Profile](screenshots/profile.jpeg) |
 
 ## Features
 - **User Authentication:** Secure signup and login powered by Clerk.
