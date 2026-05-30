@@ -46,7 +46,7 @@ Below are the key interfaces of TunePrompt:
 - **Build Tool:** PNPM Monorepo
 
 ## APK Download
-[Download TunePrompt APK](apk/TunePrompt.apk)
+[Download TunePrompt APK](https://github.com/dreams-from-dust/TunePrompt-Project/releases/tag/v2.0)
 
 ## How to Install the APK
 1. Download the APK file from the link above.
