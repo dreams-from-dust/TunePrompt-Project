@@ -1,0 +1,22 @@
+{
+  "build": {
+    "preview": {
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY": "pk_test_ZmluZS1zaGVlcC04Mi5jbGVyay5hY2NvdW50cy5kZXYk",
+        "EXPO_PUBLIC_API_URL": "https://authentication-fixer--infomine1010.replit.app"
+      }
+    },
+    "production": {
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY": "pk_test_ZmluZS1zaGVlcC04Mi5jbGVyay5hY2NvdW50cy5kZXYk",
+        "EXPO_PUBLIC_API_URL": "https://authentication-fixer--infomine1010.replit.app"
+      }
+    }
+  }
+}

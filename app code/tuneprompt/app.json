@@ -1,0 +1,67 @@
+{
+  "expo": {
+    "name": "TunePrompt",
+    "slug": "tuneprompt",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "tuneprompt",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0A0A0F"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.areejafzal.tuneprompt"
+    },
+    "android": {
+      "backgroundColor": "#0A0A0F",
+      "package": "com.areejafzal.tuneprompt",
+      "permissions": [
+        "INTERNET"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#0A0A0F"
+      }
+    },
+    "web": {
+      "favicon": "./assets/images/icon.png"
+    },
+    "plugins": [
+      [
+        "expo-router",
+        {
+          "origin": "https://authentication-fixer--infomine1010.replit.app"
+        }
+      ],
+      "expo-font",
+      "expo-web-browser",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "packagingOptions": {
+              "pickFirst": [
+                "META-INF/versions/9/OSGI-INF/MANIFEST.MF"
+              ]
+            }
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ec0c7dfa-ab20-4f7b-a0be-2da21ed5dd80"
+      }
+    }
+  }
+}
