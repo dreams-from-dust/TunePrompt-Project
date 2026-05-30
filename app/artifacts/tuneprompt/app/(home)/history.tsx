@@ -148,21 +148,23 @@ export default function HistoryScreen() {
 const s = StyleSheet.create({
   container: { flex: 1 },
   header: { paddingHorizontal: 20, paddingBottom: 16, flexDirection: "row", justifyContent: "space-between", alignItems: "center" },
-  heading: { fontSize: 28, fontWeight: "800" },
+  heading: { fontSize: 28, fontWeight: "800", fontFamily: "Inter_800ExtraBold" },
   clearBtn: { padding: 8 },
   card: { borderRadius: 20, padding: 20, borderWidth: 1, gap: 8 },
   cardHeader: { flexDirection: "row", justifyContent: "space-between" },
   cardMeta: { flexDirection: "row", alignItems: "center", gap: 10 },
   catBadge: { paddingHorizontal: 10, paddingVertical: 4, borderRadius: 8 },
-  catText: { fontSize: 12, fontWeight: "700" },
-  toolText: { fontSize: 13 },
-  dateText: { fontSize: 12 },
-  inputText: { fontSize: 14, fontStyle: "italic", opacity: 0.7 },
+  catText: { fontSize: 12, fontWeight: "700", fontFamily: "Inter_700Bold" },
+  toolText: { fontSize: 13, fontFamily: "Inter_500Medium" },
+  dateText: { fontSize: 12, fontFamily: "Inter_400Regular" },
+  inputText: { fontSize: 14, fontStyle: "italic", opacity: 0.7, fontFamily: "Inter_400Regular" },
   expandedContent: { marginTop: 12, padding: 10, borderRadius: 12, backgroundColor: "rgba(0,0,0,0.03)" },
   tabRow: { flexDirection: "row", gap: 8, marginBottom: 10 },
   tab: { paddingVertical: 6, paddingHorizontal: 12, borderRadius: 8, backgroundColor: "rgba(128,128,128,0.1)" },
+  tabText: { fontSize: 12, fontFamily: "Inter_500Medium" }, // Added for tab labels
   expandedActions: { flexDirection: "row", gap: 10, marginTop: 10 },
   actionBtn: { flexDirection: "row", alignItems: "center", justifyContent: "center", paddingVertical: 10, borderRadius: 10, borderWidth: 1, borderColor: "rgba(128,128,128,0.2)" },
+  actionBtnText: { fontSize: 13, fontFamily: "Inter_600SemiBold", marginLeft: 8 }, // Added for buttons
   bottomActions: { marginTop: 12, paddingTop: 12, borderTopWidth: 1, borderColor: "rgba(128,128,128,0.1)" },
   iconBtn: { width: "100%", height: 40, borderRadius: 10, alignItems: "center", justifyContent: "center", backgroundColor: "rgba(128,128,128,0.05)" }
 });
