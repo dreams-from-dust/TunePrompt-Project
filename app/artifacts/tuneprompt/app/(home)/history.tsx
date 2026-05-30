@@ -148,7 +148,7 @@ export default function HistoryScreen() {
 const s = StyleSheet.create({
   container: { flex: 1 },
   header: { paddingHorizontal: 20, paddingBottom: 16, flexDirection: "row", justifyContent: "space-between", alignItems: "center" },
-  heading: { fontSize: 28, fontWeight: "800", fontFamily: "Inter_800ExtraBold" },
+  heading: { fontSize: 28, fontWeight: "800", fontFamily: "Inter_700Bold" }, // Changed to Inter_700Bold
   clearBtn: { padding: 8 },
   card: { borderRadius: 20, padding: 20, borderWidth: 1, gap: 8 },
   cardHeader: { flexDirection: "row", justifyContent: "space-between" },
@@ -161,10 +161,10 @@ const s = StyleSheet.create({
   expandedContent: { marginTop: 12, padding: 10, borderRadius: 12, backgroundColor: "rgba(0,0,0,0.03)" },
   tabRow: { flexDirection: "row", gap: 8, marginBottom: 10 },
   tab: { paddingVertical: 6, paddingHorizontal: 12, borderRadius: 8, backgroundColor: "rgba(128,128,128,0.1)" },
-  tabText: { fontSize: 12, fontFamily: "Inter_500Medium" }, // Added for tab labels
+  tabText: { fontSize: 12, fontFamily: "Inter_500Medium" },
   expandedActions: { flexDirection: "row", gap: 10, marginTop: 10 },
   actionBtn: { flexDirection: "row", alignItems: "center", justifyContent: "center", paddingVertical: 10, borderRadius: 10, borderWidth: 1, borderColor: "rgba(128,128,128,0.2)" },
-  actionBtnText: { fontSize: 13, fontFamily: "Inter_600SemiBold", marginLeft: 8 }, // Added for buttons
+  actionBtnText: { fontSize: 13, fontFamily: "Inter_600SemiBold", marginLeft: 8 },
   bottomActions: { marginTop: 12, paddingTop: 12, borderTopWidth: 1, borderColor: "rgba(128,128,128,0.1)" },
   iconBtn: { width: "100%", height: 40, borderRadius: 10, alignItems: "center", justifyContent: "center", backgroundColor: "rgba(128,128,128,0.05)" }
 });
