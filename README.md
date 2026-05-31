@@ -25,7 +25,7 @@ Below are the key interfaces of TunePrompt:
 | :---: | :---: | :---: |
 | ![Dashboard](screenshots/dashboard.jpeg) | ![Video Categories](screenshots/video-categories.jpeg) | ![SEO Categories](screenshots/seo-categories.jpeg) |
 
-| History | Profile | Prompt Generation |
+| Prompt Generation| History | Profile |
 | :---: | :---: | :---: |
 | ![Generate](screenshots/generate.jpeg) | ![History](screenshots/history.jpeg) | ![Profile](screenshots/profile.jpeg) |
 
