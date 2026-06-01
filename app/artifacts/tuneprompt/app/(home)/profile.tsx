@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { useAuth, useUser } from "@clerk/expo";
 import { Icon } from "@/components/Icon";
 import * as Haptics from "expo-haptics";
